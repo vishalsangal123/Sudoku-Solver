@@ -3,9 +3,8 @@ This is a project of very famous game called Sudoku Solver coded in C++<br/>
 Sudoku is one of the very famous  puzzle in which players insert the numbers one to nine into a grid consisting of nine squares subdivided into a further nine smaller squares in such a way that every number appears once in each horizontal line, vertical line, and square.<br/>
 This project has required configurations:<br/>
 1:VS Code <br/>
-2:clang or any other c++ compiler must be installed in your sytem.<br/>
-NOTE: You can use any other editor or C++ IDE like Clion,Sublime text etc.<br/>
-The SudokuSolver.cpp contains following functions:<br/>
+2: c++ compiler must be installed in your sytem.<br/>
+The Sudoku.cpp contains following functions:<br/>
 1: main():the whole program will run from this function.In this function a 9x9 array is inputted by the user and it will be passed to SudokuSolver function
 .If the matrix  is valid then it will display the required sudoku othewise it wil display "No solution exist"<br/>
 2:SudokuSolver():This is the most important funcion which will return whether the inputted matrix is valid or not.The approach is to traverse through all the  elements of the matrix .If the element is nonzero the continously go to another element in the same row .If the element is 0 then check whether the following conditions for the element  are true or not:<br/>
